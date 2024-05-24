@@ -37,3 +37,5 @@ cargo build --target i686-pc-windows-msvc
 6. 実行する
 ![実行](images/6_実行可能.png)
 
+## 参考
+[元リポジトリ](https://github.com/Frisbeeee/rust-labview-examples)
