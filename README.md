@@ -7,6 +7,9 @@
 ### [1] dllの作成
 ```bash
 # src/lib.rsを実装
+# build.rsを配置して、ビルド時にそれを実行するようcargo.tomlに記載
+# →C用のヘッダーファイルを作る
+
 # 32bit版のdll作成に必要
 rustup target add i686-pc-windows-msvc
 # i686-pc-windows-msvcというフォルダにdllができる
