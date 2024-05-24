@@ -3,6 +3,10 @@
 - `LabVIEW`は`32bit`版を用いているので、dllも32bit版を作成すること.
 - C版のdllとして呼び出すこと（`extern "C" { }`なので） 
 
+## バージョン情報
+- Rust 1.78.0
+- LabVIEW 2018 32bit
+
 ## 手順
 ### [1] dllの作成
 ```bash
